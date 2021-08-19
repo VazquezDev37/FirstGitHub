@@ -8,6 +8,10 @@ console.log("Hello World");
 // Arrays
 
 let dest =["Cali", "Vegas", "Texas", "Utah"];
+let cali = dest[0];
+let vegas = dest[1];
+let texas = dest[2];
+let utah = dest[3];
 
 console.log(dest);
 
