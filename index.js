@@ -27,13 +27,11 @@ if(userInput === "yes"){
 }
 else if(userInput == "no"){
     console.log("Randomly re-select my trip");
+ randomDest = randomTrip(dest);
+ randomRest = randomTrip(rest);
+ randomTrans = randomTrip(trans);
+ randomEnter = randomTrip(enter);
 }
-
-
-let user = prompt("Can you please confirm your day trip?");
-
-    console.log("Complete.");
-
 
 console.log("My first destination will be " + randomDest + " Then go check out the restaurant " + randomRest + ", from there my transportation will be riding " + randomTrans + " so we can check out the entertainment when we go " + randomEnter);
 
