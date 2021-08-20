@@ -33,5 +33,8 @@ else if(userInput == "no"){
  randomEnter = randomTrip(enter);
 }
 
+let user = prompt("Please comfirm your trip");
+    console.log("completed trip");
+
 console.log("My first destination will be " + randomDest + " Then go check out the restaurant " + randomRest + ", from there my transportation will be riding " + randomTrans + " so we can check out the entertainment when we go " + randomEnter);
 
