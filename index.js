@@ -8,23 +8,19 @@ console.log("Hello World");
 // Arrays
 
 let dest =["Cali", "Vegas", "Texas", "Utah"];
-let cali = dest[0];
-let vegas = dest[1];
-let texas = dest[2];
-let utah = dest[3];
+let rest =["FreeBird", "Chipotle", "Pluckers", "BrickHouse"];
+let trans =["car", "motorcycle", "uber", "bus"];
+let enter =["movies", "dancing", "shootingRange", "seaWorld"];
 
-for( let index = 0; index < dest.length; index++){
-    if (dest[index] === "dest");
+function randomTrip(paramTrip){
+    let randomNumber = Math.floor(Math.random() * 4);
+    return paramTrip[randomNumber]
 }
 
-console.log(dest);
+let randomDest = randomTrip(dest);
+let randomRest = randomTrip(rest);
+let randomTrans = randomTrip(trans);
+let randomEnter = randomTrip(enter);
 
-let rest =["FreeBird", "Chipotle", "Pluckers", "BrickHouse"];
-let freeBird = rest[0];
-let chipotle = rest[1];
-let pluckers = rest[2];
-let brickHouse = rest[3];
-
-console.log(rest);
-
+console.log("My first destination will be " + randomDest + " Then go check out the restaurant " + randomRest + ", from there my transportation will be riding " + randomTrans + " so we can check out the entertainment when we go " + randomEnter);
 
