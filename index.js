@@ -38,14 +38,15 @@ else if(userInput >= "no"){
     while(rando < 2){
     console.log("re-selected day trip " + rando);
     rando++;
+        
     
-
     }
     
 }
-
+//function with prompt to confirm trip in console.log
 let user = prompt("Please type yes, to confirm your trip");
     console.log("completed trip");
 
+//Calling a function for random day trip
 console.log("My first destination will be " + randomDest + " Then go check out the restaurant " + randomRest + ", from there my transportation will be riding " + randomTrans + " so we can check out the entertainment when we go " + randomEnter);
 
